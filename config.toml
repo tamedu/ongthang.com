@@ -46,14 +46,14 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "Ông Thắng Phan Rang"
+    brand = "OT Phan Rang"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    services = "Services"
-    portfolio = "Portfolio"
-    about = "About"
-    team = "Team"
-    contact = "Contact"
+    services = "Cam kết"
+    portfolio = "Sản phẩm"
+    about = "Lược sử"
+    team = "Con người"
+    contact = "Liên hệ"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -66,44 +66,44 @@ googleAnalytics = ""
     #  weight = 10
 
     # postpended links
-    [[menu.postpend]]
-      url = "http://gohugo.io"
-      name = "External link"
-      weight = 10
+    # [[menu.postpend]]
+    #   url = "http://gohugo.io"
+    #   name = "External link"
+    #   weight = 10
 
 
   # Hero section
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Welcome To Our Studio!"
-    subtitle = "It's nice to meet you"
-    buttonText = "Tell me more"
+    title = ""
+    subtitle = "Nông sản Phan Rang"
+    buttonText = "Tìm hiểu"
 
 
   # Services section
   [params.services]
     enable = true
-    title = "Services"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Cam kết"
+    subtitle = "Chất lượng dịch vụ"
 
     [[params.services.row]]
 
     [[params.services.row.list]]
-      icon = "fa-shopping-cart"
-      title = "E-Commerce"
+      icon = "fa-check"
+      title = "Chất lượng"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-laptop"
-      title = "Responsive Design"
+      title = "Vệ sinh"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-lock"
-      title = "Web"
+      title = "An toàn"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
@@ -161,7 +161,7 @@ googleAnalytics = ""
 
   # Team section
   [params.team]
-    enable = true
+    enable = false
     # Possibility to center items
     #center = true
     title = "Our amazing team"
@@ -223,26 +223,26 @@ She worked at Pied Piper for years until they went belly up."""
       # Replace them with your clients's logos.
       # Suggestion: .svg in the size of 280px*80px looks good
       [[params.clients]]
-        logo = "envato.jpg"
-        link = "#"
+        logo = "xanh.jpg"
+        link = "https://xanhshop.com/"
 
-      [[params.clients]]
-        logo = "designmodo.jpg"
-        link = "#"
-
-      [[params.clients]]
-        logo = "themeforest.jpg"
-        link = "#"
-
-      [[params.clients]]
-        logo = "creative-market.jpg"
-        link = "#"
+      # [[params.clients]]
+      #   logo = "designmodo.jpg"
+      #   link = "#"
+      #
+      # [[params.clients]]
+      #   logo = "themeforest.jpg"
+      #   link = "#"
+      #
+      # [[params.clients]]
+      #   logo = "creative-market.jpg"
+      #   link = "#"
 
   # Contact section
   [params.contact]
     enable = true
     title = "Liên hệ"
-    subtitle  = "Email: ongthangphanrang@gmail.com, Tel: +84 0912555666"
+    subtitle  = "__Email__: [ongthangphanrang@gmail.com](mailto:ongthangphanrang@gmail.com)\n\n__Điện thoại__: [+84 994285978](tel:+84994285978‬)‬"
     buttonText = "Send message"
     # netlify = true
 
@@ -302,27 +302,27 @@ She worked at Pied Piper for years until they went belly up."""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Published under the Apache License 2.0."
+    copyright = "Copyright 2018"
 
-    [[params.footer.social]]
-      icon = "fa-twitter"
-      link = "#"
-      title = "Twitter"
+    # [[params.footer.social]]
+    #   icon = "fa-twitter"
+    #   link = "#"
+    #   title = "Twitter"
 
     [[params.footer.social]]
       icon = "fa-facebook"
       link = "#"
       title = "Facebook"
 
-    [[params.footer.social]]
-      icon = "fa-linkedin"
-      link = "#"
-      title = "LinkedIn"
+    # [[params.footer.social]]
+    #   icon = "fa-linkedin"
+    #   link = "#"
+    #   title = "LinkedIn"
 
-    [[params.footer.quicklinks]]
-      text = "Privacy Policy"
-      link = "#"
+    # [[params.footer.quicklinks]]
+    #   text = "Privacy Policy"
+    #   link = "#"
 
-    [[params.footer.quicklinks]]
-      text = "Terms of Use"
-      link = "#"
+    # [[params.footer.quicklinks]]
+    #   text = "Terms of Use"
+    #   link = "#"
