@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://ongthang.netlify.com/"
 languageCode = "vi-vn"
-title = "Nông sản ông Thắng"
+title = "Ông Thắng Phan Rang"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
@@ -19,7 +19,7 @@ googleAnalytics = ""
   # information about you and your website.
   name = "Ông Thắng"
   description = "Phan Rang - Tháp Chàm"
-  email = "ongthang.com@gmail.com"
+  email = "ongthangphanrang@gmail.com"
 
   # Link custom assets relative to /static
   custom_css = []
@@ -46,7 +46,7 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "The Agency"
+    brand = "Ông Thắng Phan Rang"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     services = "Services"
@@ -241,8 +241,8 @@ She worked at Pied Piper for years until they went belly up."""
   # Contact section
   [params.contact]
     enable = true
-    title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    title = "Liên hệ"
+    subtitle  = "Email: ongthangphanrang@gmail.com, Tel: +84 0912555666"
     buttonText = "Send message"
     # netlify = true
 
