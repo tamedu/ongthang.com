@@ -120,7 +120,7 @@ googleAnalytics = ""
   [params.about]
     enable = true
     title = "Kể chuyện Ánh Phan Rang"
-    subtitle = "Và lược sử hình thành cơ sở sản xuất"
+    subtitle = "Và lược sử hình thành xưởng chế biến nông sản Ông Thắng"
     endpoint = "Hãy tham gia cùng chúng tôi!"
 
     # The events will be listed from the top to the bottom.
