@@ -1,5 +1,6 @@
 # Site settings
-baseurl = "https://ongthang.com/"
+# baseurl = "https://ongthang.com/"
+baseurl = "http://localhost:1313/"
 languageCode = "vi-vn"
 title = "Ông Thắng Phan Rang"
 theme = "hugo-agency-theme"
@@ -40,7 +41,7 @@ googleAnalytics = ""
     brand = "OT Phan Rang"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    services = "Cam kết"
+    services = "Giá trị"
     portfolio = "Sản phẩm"
     about = "Lược sử"
     team = "Con người"
@@ -75,28 +76,28 @@ googleAnalytics = ""
   # Services section
   [params.services]
     enable = true
-    title = "Cam kết"
-    subtitle = "Chất lượng dịch vụ"
+    title = "Giá trị cốt lõi"
+    # subtitle = "Chất lượng dịch vụ"
 
     [[params.services.row]]
 
     [[params.services.row.list]]
       icon = "fa-check"
       title = "Chất lượng"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
+      description = "Sử dụng nguồn nguyên liệu không hoá chất, đồng hành cùng những vườn canh tác thuận tự nhiên. Áp dụng quy trình sản xuất khoa học và chặt chẽ để đảm bảo chất lượng sản phẩm."
+      # url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-laptop"
-      title = "Vệ sinh"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
+      icon = "fa-heart"
+      title = "Con người"
+      description = "Bắt đầu từ ước muốn làm nên sản phẩm tốt đẹp, người lao động mang yêu thương, bình an và sự chú tâm vào việc chế biến sản phẩm. Khách hàng sẽ cảm nhận được năng lượng tích cực ấy!"
+      # url = "#"
 
-    [[params.services.row.list]]
-      icon = "fa-lock"
-      title = "An toàn"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
+      [[params.services.row.list]]
+        icon = "fa-gift"
+        title = "Chia sẻ và nhân rộng"
+        description = "Chia sẻ hiểu biết, kinh nghiệm và phát triển kỹ năng cho các bạn muốn triển khai mô hình tương tự tại địa phương mình sinh sống."
+        # url = "#"
 
   # Portfolio section
   [params.portfolio]
@@ -105,8 +106,8 @@ googleAnalytics = ""
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Portfolio"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Sản phẩm"
+    subtitle = "Chúng tôi đang cung cấp ..."
 
     [params.portfolio.modal]
       client = "Client"
@@ -118,8 +119,8 @@ googleAnalytics = ""
     # About section
   [params.about]
     enable = true
-    title = "Kể chuyện Ông Thắng Phan Rang"
-    subtitle = "Lược sử hình thành"
+    title = "Kể chuyện Ánh Phan Rang"
+    subtitle = "Và lược sử hình thành cơ sở sản xuất"
     endpoint = "Hãy tham gia cùng chúng tôi!"
 
     # The events will be listed from the top to the bottom.
@@ -134,21 +135,38 @@ googleAnalytics = ""
     [[params.about.events]]
       img = "2.jpg"
       date = "199x"
-      title = "An Agency is Born"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      title = "Tuổi thơ sinh động"
+      description = "Ánh học cấp 2, giữa trưa mặc áo mưa chèo thuyền vịt đi học, thiếu điện, thiếu nước, làm bạn với nắng gió trời mây và chó."
 
     [[params.about.events]]
       img = "3.jpg"
-      date = "December 2012"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "2005-2009"
+      title = "Ước muốn trồng rừng và học đại học"
+      description = "Năm cấp 3, một ý nghĩ loé lên __mình sẽ đi trồng rừng!__ Ánh thi đậu đại học Nông Lâm Hồ Chí Minh. Vừa học vừa làm, phụ giúp kinh tế gia đình. Nhận được nhiều học bổng trợ giúp từ cộng đồng."
 
     [[params.about.events]]
       img = "4.jpg"
-      date = "July 2014"
-      title = "Phase Two Expansion"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "2009-2013"
+      title = "Sự chuyên nghiệp và tử tế ở Pháp"
+      description = "Ánh học thạc sĩ và làm ở Pháp về quản lý trong công nghiệp thực phẩm. Được sống giữa những người tử tế và tham gia các tổ chức phi chính phủ, đóng góp cho cộng đồng."
 
+    [[params.about.events]]
+      img = "5.jpg"
+      date = "2013-2016"
+      title = "Phát triển cộng đồng trong nước"
+      description = "Ánh về nước dự định làm những gì mình muốn về phát triển cộng đồng. Gặp chị Hằng, làm cho XanhShop. Ánh góp phần xây dựng cộng đồng những người sống với nhau tử tế, thân thiết với nhà cung cấp như gia đình."
+
+    [[params.about.events]]
+      img = "6.jpg"
+      date = "9/2016"
+      title = "Trở về với gia đình, quê hương"
+      description = "Ánh trở về Phan Rang gắn kết với gia đình, từng bước thực hiện ước muốn trồng rừng từ năm cấp 3. Bước đầu thử nghiệm làm vườn và chế biến nông sản địa phương"
+
+    [[params.about.events]]
+      img = "7.jpg"
+      date = "5/2017"
+      title = "Mở xưởng chế biến"
+      description = "Ánh mở xưởng chế biến ông Thắng, sử dụng nông sản không hoá chất, đồng hành cùng những vườn canh tác thuận tự nhiên ở Ninh Thuận. Phát triển kỹ năng cho các bạn muốn triển khai mô hình tương tự tại địa phương mình sinh sống."
 
   # Team section
   [params.team]
