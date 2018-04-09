@@ -1,6 +1,6 @@
 # Site settings
-# baseurl = "https://ongthang.com/"
-baseurl = "http://localhost:1313/"
+baseurl = "https://ongthang.com/"
+# baseurl = "http://localhost:1313/"
 languageCode = "vi-vn"
 title = "Ông Thắng Phan Rang"
 theme = "hugo-agency-theme"
