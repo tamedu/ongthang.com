@@ -83,20 +83,20 @@ googleAnalytics = ""
 
     [[params.services.row.list]]
       icon = "fa-check"
-      title = "Chất lượng"
-      description = "Sử dụng nguồn nguyên liệu không hoá chất, đồng hành cùng những vườn canh tác thuận tự nhiên. Áp dụng quy trình sản xuất khoa học và chặt chẽ để đảm bảo chất lượng sản phẩm."
+      title = "Lành và sạch"
+      description = "Sử dụng nguồn nguyên liệu không hoá chất. Đồng hành cùng những vườn canh tác thuận tự nhiên. Thực hành và lan tỏa lối sống thân thiện với môi trường."
       # url = "#"
 
     [[params.services.row.list]]
       icon = "fa-heart"
-      title = "Con người"
-      description = "Bắt đầu từ ước muốn làm nên sản phẩm tốt đẹp, người lao động mang yêu thương, bình an và sự chú tâm vào việc chế biến sản phẩm. Khách hàng sẽ cảm nhận được năng lượng tích cực ấy!"
+      title = "Tử tế và hạnh phúc"
+      description = "Lấy hạnh phúc con người làm trung tâm. Bắt đầu từ ước muốn làm nên sản phẩm tốt đẹp, người lao động mang yêu thương, bình an vào việc chế biến thủ công, tỉ mỉ. Khách hàng sẽ cảm nhận được năng lượng tích cực ấy khi sử dụng sản phẩm."
       # url = "#"
 
       [[params.services.row.list]]
         icon = "fa-gift"
         title = "Chia sẻ và nhân rộng"
-        description = "Chia sẻ hiểu biết, kinh nghiệm và phát triển kỹ năng cho các bạn muốn triển khai mô hình tương tự tại địa phương mình sinh sống."
+        description = "Chia sẻ hiểu biết, kinh nghiệm và trở thành nơi trải nghiệm và học tập cho những bạn trẻ có đam mê và ý định khởi nghiệp trong lĩnh vực chế biến."
         # url = "#"
 
   # Portfolio section
@@ -192,7 +192,7 @@ googleAnalytics = ""
   [params.contact]
     enable = true
     title = "Liên hệ"
-    subtitle  = "__Email__: [ongthangphanrang@gmail.com](mailto:ongthangphanrang@gmail.com)\n\n__Điện thoại__: [+84 994285978](tel:+84994285978‬)‬"
+    subtitle  = "__Địa chỉ__: khu phố 8, phường Phước Mỹ, TP Phan Rang – Tháp Chàm, tỉnh Ninh Thuận\n\n__Email__: [ongthangphanrang@gmail.com](mailto:ongthangphanrang@gmail.com)\n\n__Điện thoại__: [09 79 56 52 71](tel:+84979565271)"
 
   # Footer section
   [params.footer]
