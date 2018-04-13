@@ -110,10 +110,10 @@ googleAnalytics = ""
     subtitle = "Chúng tôi đang cung cấp ..."
 
     [params.portfolio.modal]
-      client = "Client"
-      date = "Date"
-      category = "Category"
-      buttonText = "Close project"
+      client = "Khách hàng"
+      date = "Ngày"
+      category = "Phân loại"
+      buttonText = "Trở về"
 
 
     # About section
@@ -211,3 +211,65 @@ googleAnalytics = ""
     # [[params.footer.quicklinks]]
     #   text = "Terms of Use"
     #   link = "#"
+
+[languages]
+[languages.en]
+[languages.blog]
+theme = "hugo-casper-two"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+canonifyurls    = true
+[languages.blog.params]
+title       = "Hugo Casper Two"
+subtitle    = "Port of Casper 2.x for Hugo"
+copyright   = "© 2018"
+
+cover       = "img/blog-cover.jpg"
+description = "Here is a description of your site."
+metaDescription = ""
+googleAnalytics = ""
+customCSS = []
+RSSLink = ""
+
+twitterName = "faketryghost"
+fbName = "fakeghost"
+githubName = "eueung"
+linkedinName = "eueung"
+mediumName = ""
+
+logo = "hugo-logo.png"
+orgName = "EM"
+orgWebsite = "https://www.telematika.org"
+orgDescription = "Here is a description placeholder for your org"
+
+showSupport = true
+
+author = "EM"
+authorAvatar = "img/ghost-icon.png"
+authorLocation = "Bandung, ID"
+authorWebsite = "https://eueung.github.io"
+authorDescription = "Your description here"
+
+pageNotFoundTitle = "404 - Page not found"
+
+#casper or caspertwo
+singleViewStyle = "casper"
+
+[languages.blog.permalinks]
+post = "/post/:slug/"
+
+[[languages.blog.menu.main]]
+name = "Home"
+url = "/blog/"
+weight = 200
+
+[[languages.blog.menu.main]]
+name = "Categories"
+url = "/blog/categories/"
+weight = 99
+
+[[languages.blog.menu.main]]
+name = "External"
+url = "https://google.com/"
+weight = 95
