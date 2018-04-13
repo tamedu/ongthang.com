@@ -32,7 +32,8 @@
 </section>
 
 <script>
-$(document).ready(function () {
+/* init on load */
+window.addEventListener("load", function() {
     m = window.location.href.match(/#san-pham-(-|[a-z0-9])+/);
     if (m) {
         $(m[0]).modal();

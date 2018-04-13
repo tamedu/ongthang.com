@@ -18,7 +18,7 @@
                   {{ $url := printf "img/products/%s" .img }}
                   <h4 style="text-align: left;">{{ .title }}</h4>
                   <img class="img-responsive img-centered" src="{{ $url | absURL }}" alt="">
-                  <p>{{ .description | markdownify }}</p>
+                  {{ if .description }}<p>{{ .description | markdownify }}</p>{{ end }}
               {{ end }}
               <p>{{ .description | markdownify }}</p>
               <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.portfolio.modal.buttonText }}{{ . }}{{ end }}</button>
