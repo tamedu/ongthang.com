@@ -1,13 +1,13 @@
 modalID: bot-nem-tu-ruoc
 title: Bột nêm từ ruốc
 subtitle: Bột nêm mịn, thơm mùi đặc trưng của con ruốc. Vị ngọt hài hòa với vị mặn của muối biển.
-preview: bot-nem-ruoc.jpg
+preview: bot-nem-tu-ruoc/cover.jpg
 slides:
-    - img: bot-nem-ruoc-thong-tin.png
+    - img: bot-nem-tu-ruoc/thong-tin.png
       title: Thông tin sản phẩm
-    - img: bot-nem-ruoc.jpg
+    - img: bot-nem-tu-ruoc/cover.jpg
       title: Bột nêm mịn, thơm mùi đặc trưng của con ruốc
-    - img: hu-bot-nem-ruoc-300gr.jpg
+    - img: bot-nem-tu-ruoc/hu-300gr.jpg
       title: Hũ bột nêm ruốc 300gr
 category: Hải sản
 description: ""
