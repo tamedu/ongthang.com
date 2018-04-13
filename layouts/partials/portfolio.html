@@ -30,3 +30,12 @@
     </div>
   </div>
 </section>
+
+<script>
+$(document).ready(function () {
+    m = window.location.href.match(/#san-pham-(-|[a-z0-9])+/);
+    if (m) {
+        $(m[0]).modal();
+    }
+});
+</script>
