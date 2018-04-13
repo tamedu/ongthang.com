@@ -16,7 +16,7 @@
               <p class="item-intro text-muted">{{ .subtitle | markdownify }}</p>
               {{ range .slides }}
                   {{ $url := printf "img/products/%s" .img }}
-                  <h4 style="text-align: left;">{{ .title }}</h4>
+                  {{ if .title }}<h4 style="text-align: left;">{{ .title }}</h4>{{ end }}
                   <img class="img-responsive img-centered" src="{{ $url | absURL }}" alt="">
                   {{ if .description }}<p>{{ .description | markdownify }}</p>{{ end }}
               {{ end }}
