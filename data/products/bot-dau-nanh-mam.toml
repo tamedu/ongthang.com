@@ -9,8 +9,8 @@ description = ""
     img = "thong-tin-bot-ngu-coc.png"
     title = "Thông tin sản phẩm"
 [[slides]]
-    img = "bot-dau-nanh-mam/cover.jpg"
-    title = "Sau khi xay"
+    img = "bot-dau-nanh-mam/sau-khi-nghien.jpg"
+    title = "Sau khi nghiền"
 [[slides]]
     img = "bot-dau-nanh-mam/nguyen-lieu.jpg"
     title = "Nguyên liệu"

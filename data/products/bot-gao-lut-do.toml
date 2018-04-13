@@ -1,0 +1,25 @@
+modalID = "bot-gao-lut-do"
+title = "Bột gạo lứt đỏ"
+subtitle = ""
+preview = "bot-gao-lut-do/cover.jpg"
+category = "Bột ngũ cốc"
+description = ""
+
+[[slides]]
+    img = "thong-tin-bot-ngu-coc.png"
+    title = "Thông tin sản phẩm"
+[[slides]]
+    img = "bot-gao-lut-do/sau-khi-nghien.jpg"
+    title = "Sau khi nghiền"
+[[slides]]
+    img = "bot-gao-lut-do/phoi-sau-khi-do-chin.jpg"
+    title = "Phơi sau khi đồ chín"
+[[slides]]
+    img = "bot-gao-lut-do/chuan-bi-dem-rang.jpg"
+    title = "Chuẩn bị đem rang"
+[[slides]]
+    img = "bot-gao-lut-do/da-rang.jpg"
+    title = "Đã rang"
+[[slides]]
+    img = "bot-gao-lut-do/goi-500gr.jpg"
+    title = "Gói 500gr"

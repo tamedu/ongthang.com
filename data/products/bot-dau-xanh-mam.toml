@@ -1,0 +1,16 @@
+modalID = "bot-dau-xanh-mam"
+title = "Bột đậu xanh mầm"
+subtitle = ""
+preview = "bot-dau-xanh-mam/cover.jpg"
+category = "Bột ngũ cốc"
+description = ""
+
+[[slides]]
+    img = "thong-tin-bot-ngu-coc.png"
+    title = "Thông tin sản phẩm"
+[[slides]]
+    img = "bot-dau-xanh-mam/sau-khi-nghien.jpg"
+    title = "Sau khi nghiền"
+[[slides]]
+    img = "bot-dau-xanh-mam/phoi-sau-khi-hap.jpg"
+    title = "Phơi sau khi hấp"

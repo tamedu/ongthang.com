@@ -1,0 +1,22 @@
+modalID = "bot-sen"
+title = "Bột sen"
+subtitle = ""
+preview = "bot-sen/cover.jpg"
+category = "Bột ngũ cốc"
+description = ""
+
+[[slides]]
+    img = "thong-tin-bot-ngu-coc.png"
+    title = "Thông tin sản phẩm"
+[[slides]]
+    img = "bot-sen/sau-khi-nghien.jpg"
+    title = "Sau khi nghiền"
+[[slides]]
+    img = "bot-sen/vua-hap-xong.jpg"
+    title = "Vừa hấp xong"
+[[slides]]
+    img = "bot-sen/phoi-sau-khi-hap.jpg"
+    title = "Phơi sau khi hấp"
+[[slides]]
+    img = "bot-sen/rang-thom-truoc-khi-nghien.jpg"
+    title = "Rang thơm trước khi nghiền"
