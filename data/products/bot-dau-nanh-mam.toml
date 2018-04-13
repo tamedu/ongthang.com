@@ -1,0 +1,19 @@
+modalID = "bot-dau-nanh-mam"
+title = "Bột đậu nành mầm"
+subtitle = ""
+preview = "bot-dau-nanh-mam/cover.jpg"
+category = "Bột ngũ cốc"
+description = ""
+
+[[slides]]
+    img = "thong-tin-bot-ngu-coc.png"
+    title = "Thông tin sản phẩm"
+[[slides]]
+    img = "bot-dau-nanh-mam/cover.jpg"
+    title = "Sau khi xay"
+[[slides]]
+    img = "bot-dau-nanh-mam/nguyen-lieu.jpg"
+    title = "Nguyên liệu"
+[[slides]]
+    img = "bot-dau-nanh-mam/u-man.jpg"
+    title = "Phơi khô sau khi hấp chín"
