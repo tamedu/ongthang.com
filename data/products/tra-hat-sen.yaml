@@ -1,11 +1,11 @@
 modalID: tra-hat-sen
 title: Trà hạt sen
 subtitle: ""
-preview: tra-hat-sen/cover.jpg
+preview: tra-sen/cover.jpg
 slides:
-    - img: tra-hat-sen/thong-tin-tra-hat-sen.png
+    - img: tra-sen/thong-tin-tra-hat-sen.png
       title: Thông tin sản phẩm
-    - img: tra-hat-sen/hat-sen-gia-kho-tren-cay.jpg
+    - img: tra-sen/hat-sen-gia-kho-tren-cay.jpg
       title: Hạt sen già khô trên cây
 category: Trà
 description: ""
