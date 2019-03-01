@@ -1,0 +1,13 @@
+modalID: tra-gao-lut-tim
+title: Trà gạo lứt tím
+subtitle: ""
+preview: tra-gao-lut-tim/cover.jpeg
+slides:
+    - img: tra-gao-lut-tim/thong-tin.png
+      title: Thông tin sản phẩm
+    - img: tra-gao-lut-tim/nguyen-lieu.jpeg
+      title: Nguyên liệu
+    - img: tra-gao-lut-tim/rang-xong-ha-tho.jpeg
+      title: Rang xong hạ thổ
+category: Trà
+description: ""
