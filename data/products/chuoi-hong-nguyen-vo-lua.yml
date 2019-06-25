@@ -1,13 +1,13 @@
 modalID: chuoi-hong-nguyen-vo-lua
-title: CHUỐI HỒNG NGUYÊN VỎ LỤA
+title: Chuối hồng nguyên vỏ lụa
 subtitle: ""
-preview: chuoi-hong-nguyen-vo-lua/cover.jpeg
+preview: chuoi-hong-nguyen-vo-lua/cover.jpg
 slides:
     - img: chuoi-hong-nguyen-vo-lua/thong-tin.png
       title: Thông tin sản phẩm
-    - img: chuoi-hong-nguyen-vo-lua/nguyen-lieu.jpeg
-      title: Nguyên liệu
-    - img: tra-gao-lut-tim/rang-xong-ha-tho.jpeg
-      title: Rang xong hạ thổ
-category: Trà
+    - img: chuoi-hong-nguyen-vo-lua/quy-trinh.png
+      title: Quy trình chế biến
+    - img: tra-gao-lut-tim/say-kho.jpg
+      title: Sấy khô
+category: Sấy
 description: ""
